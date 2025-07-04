@@ -78,7 +78,7 @@ with tqdm(test_loader, unit='batch') as tepoch:
         learned_img_embeddings_mean.append(Z_img_mean.detach())
         learned_txt_embeddings_mean.append(Z_txt_mean.detach())
         learned_img_embeddings_variance.append(Z_img_variance.detach())
-        learned_txt_embeddings_variance.append(Z_img_variance.detach())
+        learned_txt_embeddings_variance.append(Z_txt_variance.detach())
     
 r_dict['i_u'] = learned_img_embeddings_variance
 r_dict['t_u'] = learned_txt_embeddings_variance
