@@ -1,5 +1,7 @@
 # GroVE
 
+Code for "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models", UAI 2025.
+
 ## Dataset
 The code supports the MS-COCO, Flickr30k, CUB-200-2011 and Oxford Flowers 102.
 
