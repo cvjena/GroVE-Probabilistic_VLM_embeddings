@@ -20,3 +20,13 @@ Oxford Flowers 102: Download the [images](https://www.robots.ox.ac.uk/~vgg/data/
 ## Training and Evaluation
 Update the `config.py` script with the dataset path and the hyperparameter values. 
 Run the training using `train.py`. For evaluation, use `evaluation.py`.
+
+If you use this code, please cite:
+```
+@article{venkataramanan2025probabilistic,
+  title={Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models},
+  author={Venkataramanan, Aishwarya and Bodesheim, Paul and Denzler, Joachim},
+  journal={arXiv preprint arXiv:2505.05163},
+  year={2025}
+}
+```
